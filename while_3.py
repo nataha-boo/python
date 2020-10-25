@@ -1,0 +1,9 @@
+n=int(input())
+k=int(input())
+otvet=0
+ostatok=n
+while(ostatok>=k):
+    ostatok-=k
+    if(ostatok>=0):
+        otvet+=1
+print(otvet,ostatok)
